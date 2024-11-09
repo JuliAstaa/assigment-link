@@ -15,7 +15,9 @@
           class="flex w-full h-16 p-4 justify-between items-center backdrop-blur-lg"
         >
           <div class="logo">
-            <h1 class="text-[#347928] font-extrabold text-4xl">LINK TUGAS</h1>
+            <h1 class="text-[#347928] font-extrabold lg:text-4xl text-2xl">
+              LINK TUGAS
+            </h1>
           </div>
           <nav class="nav-menu">
             <div class="dark-mode light cursor-pointer" id="dark-light-toggle">
@@ -25,19 +27,36 @@
         </header>
         <div>
           <div
-            class="main-content gap-4 p-4 w-full h-full border-b grid grid-cols-8 content-center"
+            class="main-content lg:gap-4 p-4 w-full h-full border-b grid lg:grid-cols-8 grid-cols-8 content-center"
           >
-            <div class="dark:text-white"><h1>1</h1></div>
-            <div class="col-span-4 dark:text-white">BASIS DATA</div>
-            <div class="dark:text-white"><h1>Presentation</h1></div>
-            <div class="dark:text-white"><h1>Pertemuan 6</h1></div>
+            <div class="dark:text-white text-xs lg:text-base w-auto">1</div>
+            <div
+              class="lg:col-span-4 col-span-2 dark:text-white text-xs lg:text-base"
+            >
+              BASIS DATA
+            </div>
+            <div
+              class="dark:text-white text-xs lg:text-base col-span-2 lg:col-span-1"
+            >
+              <h1>Presentation</h1>
+            </div>
+            <div
+              class="dark:text-white text-xs lg:text-base col-span-2 lg:col-span-1"
+            >
+              <h1>Pertemuan 6</h1>
+            </div>
             <div>
               <a
                 target="_blank"
                 href="https://www.canva.com/design/DAGVyQjImJM/MHhnKAfU6nNxNxIXCIn41w/edit?utm_content=DAGVyQjImJM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                 class="w-full"
               >
-                <img id="link-external" src="icon/link-light.png" alt="" />
+                <img
+                  id="link-external"
+                  class="w-4 lg:w-auto"
+                  src="icon/link-light.png"
+                  alt=""
+                />
               </a>
             </div>
           </div>
